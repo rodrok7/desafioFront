@@ -1038,4 +1038,56 @@ scroll-page {
             align-items: center;
   }
 }
+
+header div nav .btn-primary {
+  background-color: #445ede;
+}
+
+header div nav div.i {
+  background-color: #d8d8d8;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div nav div img {
+  width: 40px;
+  height: 40px;
+}
+
+header div nav .foto {
+  width: 40px;
+  height: 40px;
+}
+
+/* Aside derecho */
+.asideAiry .card {
+  background-color: #f9fafa;
+}
+
+.asideAiry .card .card-body p strong {
+  font-size: 17px;
+}
+
+.asideAiry .card .card-body .badge-secondary {
+  background-color: #445ede;
+}
+
+.asideAiry .card .card-articles :hover {
+  background-color: white;
+  color: #445ede;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+  header div nav .form-control {
+    width: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
